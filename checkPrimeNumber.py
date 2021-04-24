@@ -2,7 +2,7 @@ def isNumber():
     try:
         return int(inputString)
     except ValueError as _:
-        print("Bitte gib eine Zahl an.")
+        print('Bitte gib eine Zahl an.')
         return None
 
 
@@ -15,10 +15,10 @@ if number is not None:
     if number > 1:
         for i in range(2, number):
             if (number % i) == 0:
-                print("{} ist keine Primzahl!".format(number))
+                print('{} ist keine Primzahl!'.format(number))
                 break
             else:
-                print("{} ist eine Primzahl.".format(number))
+                print('{} ist eine Primzahl.'.format(number))
                 break
     else:
-        print("{} ist keine Primzahl.".format(number))
+        print('{} ist keine Primzahl.'.format(number))
