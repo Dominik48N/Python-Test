@@ -6,6 +6,7 @@ def printArticle(description_size):
     print('Link zum Artikel: {}'.format(page_py.fullurl))
     print('Beschreibung: \n{}'.format(page_py.summary[0:description_size]))
 
+
 wiki_api = wikipediaapi.Wikipedia('de')
 page_py = wiki_api.page(input('Wikipedia Artikel: '))
 
