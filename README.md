@@ -1,2 +1,2 @@
 # Python-Test
-This project is a python test.
+This project is for python tests.
